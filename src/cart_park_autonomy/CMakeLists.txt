@@ -27,6 +27,8 @@ DESTINATION share/${PROJECT_NAME}
 set(BEHAVIOR_SOURCES
 src/patrol_behavior.cpp
 src/gotocart_behavior.cpp
+src/dockcart_behavior.cpp
+src/parkcart_behavior.cpp
 src/open_gripper_behavior.cpp
 )
 

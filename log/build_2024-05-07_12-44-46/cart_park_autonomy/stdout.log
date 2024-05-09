@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomy_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable autonomy_node[0m
+[100%] Built target autonomy_node
+-- Install configuration: ""
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/bt_xml
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/bt_xml/tree.xml
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/launch
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/launch/autonomy.launch.py
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/config
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/config/sim_house_locations.yaml
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/lib/cart_park_autonomy/autonomy_node
+-- Set runtime path of "/home/yyj/my_ws/install/cart_park_autonomy/lib/cart_park_autonomy/autonomy_node" to ""
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/ament_index/resource_index/package_run_dependencies/cart_park_autonomy
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/ament_index/resource_index/parent_prefix_path/cart_park_autonomy
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.sh
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/environment/ament_prefix_path.dsv
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.sh
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/environment/path.dsv
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.bash
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.sh
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.zsh
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/local_setup.dsv
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/package.dsv
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/ament_index/resource_index/packages/cart_park_autonomy
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig.cmake
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/cmake/cart_park_autonomyConfig-version.cmake
+-- Installing: /home/yyj/my_ws/install/cart_park_autonomy/share/cart_park_autonomy/package.xml

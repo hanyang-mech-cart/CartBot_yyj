@@ -1,4 +1,4 @@
-#include "patrol_behavior.h"
+#include "patrol_behavior.hpp"
 #include "yaml-cpp/yaml.h"
 #include <string>
 #include <future>
@@ -59,7 +59,7 @@ BT::NodeStatus Patrol::onStart()
   // send pose
   done_flag_ = false;
   action_client_ptr_->async_send_goal(goal_msg, send_goal_options);
-  RCLCPP_INFO(node_ptr_->get_logger(), "Sent Goal to Nav2\n");
+  RCLCPP_INFO(node_ptr_->get_logger(), "PATROL : Sent Goal to Nav2\n");
   return BT::NodeStatus::RUNNING;
 }
 
@@ -69,12 +69,12 @@ BT::NodeStatus Patrol::onRunning()
 
   try {
         t = tf_buffer_->lookupTransform(
-          "marker_0", "camera_color_optical_frame",
+          "map", "marker_0_map",
           tf2::TimePointZero);
       } catch (const tf2::TransformException & ex) {
         RCLCPP_INFO(
-                   node_ptr_->get_logger(), "Could not transform %s to %s: %s",
-            "marker_0", "camera_color_optical_frame", ex.what());
+                   node_ptr_->get_logger(), "PATROL : Could not transform %s to %s: %s",
+            "map", "marker_0", ex.what());
       }
 
   if(t.header.stamp.sec != 0)
@@ -92,12 +92,27 @@ BT::NodeStatus Patrol::onRunning()
     // }
     //return BT::NodeStatus::SUCCESS;
     setOutput("cart_loc_out", t);
+    RCLCPP_INFO(node_ptr_->get_logger(), "PATROL : Patroll OUT\n");
+    RCLCPP_INFO(
+    node_ptr_->get_logger(),
+    "TransformStamped: child_frame_id=%s, frame_id=%s, timestamp=%d.%d, x=%f, y=%f, z=%f, qx=%f, qy=%f, qz=%f, qw=%f",
+    t.child_frame_id.c_str(),
+    t.header.frame_id.c_str(),
+    t.header.stamp.sec,
+    t.header.stamp.nanosec,
+    t.transform.translation.x,
+    t.transform.translation.y,
+    t.transform.translation.z,
+    t.transform.rotation.x,
+    t.transform.rotation.y,
+    t.transform.rotation.z,
+    t.transform.rotation.w);
     return BT::NodeStatus::SUCCESS;
   }
 
   if (done_flag_)
   {
-    RCLCPP_INFO(node_ptr_->get_logger(), "[%s] Goal reached\n", this->name());
+    RCLCPP_INFO(node_ptr_->get_logger(), "[%s] PATROL : Goal reached\n", this->name().c_str());
     return BT::NodeStatus::FAILURE;
     //return BT::NodeStatus::FAILURE;
   }

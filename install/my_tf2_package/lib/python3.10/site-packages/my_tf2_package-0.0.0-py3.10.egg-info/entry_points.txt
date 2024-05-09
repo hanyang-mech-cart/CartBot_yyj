@@ -1,0 +1,3 @@
+[console_scripts]
+my_static_cart_tf2_broadcaster = my_tf2_package.my_static_cart_tf2_broadcaster:main
+

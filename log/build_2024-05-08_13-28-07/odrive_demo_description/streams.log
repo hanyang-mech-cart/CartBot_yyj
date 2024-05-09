@@ -1,0 +1,24 @@
+[0.196s] Invoking command in '/home/yyj/my_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/odrive_demo_description -- -j16 -l16
+[3.114s] Invoked command in '/home/yyj/my_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/odrive_demo_description -- -j16 -l16
+[3.465s] Invoking command in '/home/yyj/my_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/odrive_demo_description
+[3.533s] -- Install configuration: ""
+[3.534s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/urdf
+[3.534s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.ros2_control.xacro
+[3.535s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_diffbot.urdf.xacro
+[3.535s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.urdf.xacro
+[3.535s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/ament_index/resource_index/package_run_dependencies/odrive_demo_description
+[3.536s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/ament_index/resource_index/parent_prefix_path/odrive_demo_description
+[3.536s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.sh
+[3.536s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.dsv
+[3.536s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.sh
+[3.537s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.dsv
+[3.537s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.bash
+[3.538s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.sh
+[3.538s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.zsh
+[3.539s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.dsv
+[3.539s] -- Installing: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv
+[3.539s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/ament_index/resource_index/packages/odrive_demo_description
+[3.540s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig.cmake
+[3.540s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig-version.cmake
+[3.540s] -- Up-to-date: /home/yyj/my_ws/install/odrive_demo_description/share/odrive_demo_description/package.xml
+[3.571s] Invoked command in '/home/yyj/my_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/odrive_demo_description

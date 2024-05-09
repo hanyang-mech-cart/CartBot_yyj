@@ -1,0 +1,29 @@
+[0.932s] Invoking command in '/home/yyj/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_bot_description -- -j16 -l16
+[3.013s] Invoked command in '/home/yyj/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_bot_description -- -j16 -l16
+[3.387s] Invoking command in '/home/yyj/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_bot_description
+[3.460s] -- Install configuration: ""
+[3.461s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf
+[3.462s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode
+[3.463s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/settings.json
+[3.465s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/c_cpp_properties.json
+[3.466s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot_description.urdf.xacro
+[3.467s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot.materials.xacro
+[3.468s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz
+[3.470s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot_view.rviz
+[3.470s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot.rviz
+[3.470s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[3.470s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[3.471s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[3.472s] -- Installing: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[3.472s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[3.472s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[3.472s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[3.472s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/package.xml
+[3.541s] Invoked command in '/home/yyj/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_bot_description

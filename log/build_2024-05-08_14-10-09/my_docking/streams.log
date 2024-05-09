@@ -1,0 +1,21 @@
+[5.915s] Invoking command in '/home/yyj/my_ws/src/my_docking': PYTHONPATH=/home/yyj/my_ws/build/my_docking/prefix_override:/home/yyj/my_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/yyj/my_ws/build/my_docking/build install --record /home/yyj/my_ws/build/my_docking/install.log --single-version-externally-managed install_data
+[7.004s] running egg_info
+[7.015s] writing ../../build/my_docking/my_docking.egg-info/PKG-INFO
+[7.015s] writing dependency_links to ../../build/my_docking/my_docking.egg-info/dependency_links.txt
+[7.020s] writing entry points to ../../build/my_docking/my_docking.egg-info/entry_points.txt
+[7.022s] writing requirements to ../../build/my_docking/my_docking.egg-info/requires.txt
+[7.024s] writing top-level names to ../../build/my_docking/my_docking.egg-info/top_level.txt
+[7.042s] reading manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[7.042s] writing manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[7.042s] running build
+[7.043s] running build_py
+[7.043s] running install
+[7.044s] running install_lib
+[7.045s] running install_data
+[7.045s] running install_egg_info
+[7.045s] removing '/home/yyj/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking-0.0.0-py3.10.egg-info' (and everything under it)
+[7.045s] Copying ../../build/my_docking/my_docking.egg-info to /home/yyj/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking-0.0.0-py3.10.egg-info
+[7.045s] running install_scripts
+[7.121s] Installing docking script to /home/yyj/my_ws/install/my_docking/lib/my_docking
+[7.124s] writing list of installed files to '/home/yyj/my_ws/build/my_docking/install.log'
+[7.211s] Invoked command in '/home/yyj/my_ws/src/my_docking' returned '0': PYTHONPATH=/home/yyj/my_ws/build/my_docking/prefix_override:/home/yyj/my_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/yyj/my_ws/build/my_docking/build install --record /home/yyj/my_ws/build/my_docking/install.log --single-version-externally-managed install_data

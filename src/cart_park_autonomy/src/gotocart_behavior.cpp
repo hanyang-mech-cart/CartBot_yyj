@@ -1,4 +1,4 @@
-#include "gotocart_behavior.h"
+#include "gotocart_behavior.hpp"
 #include "yaml-cpp/yaml.h"
 #include <string>
 #include <future>
@@ -35,7 +35,7 @@ BT::NodeStatus GoToCart::onStart()
   auto goal_msg = NavigateToPose::Goal();
   goal_msg.pose.header.frame_id = "map";
   goal_msg.pose.pose.position.x = t.transform.translation.x;
-  goal_msg.pose.pose.position.y = t.transform.translation.x;
+  goal_msg.pose.pose.position.y = t.transform.translation.y;
 
   tf2::Quaternion q(t.transform.rotation.x,t.transform.rotation.y,t.transform.rotation.z,t.transform.rotation.w);
   q.normalize();
@@ -50,21 +50,60 @@ BT::NodeStatus GoToCart::onStart()
 
 BT::NodeStatus GoToCart::onRunning()
 {
-  // geometry_msgs::msg::TransformStamped t;
+  geometry_msgs::msg::TransformStamped map_cart;
+  geometry_msgs::msg::TransformStamped robot_cart;
 
-  // try {
-  //       t = tf_buffer_->lookupTransform(
-  //         "marker_0", "camera_color_optical_frame",
-  //         tf2::TimePointZero);
-  //     } catch (const tf2::TransformException & ex) {
-  //       RCLCPP_INFO(
-  //                  node_ptr_->get_logger(), "Could not transform %s to %s: %s",
-  //           "marker_0", "camera_color_optical_frame", ex.what());
-  //     }
+  if (Regoal == false)
+  {
+    try {
+        map_cart = tf_buffer_->lookupTransform(
+          "map", "marker_0_map",
+          tf2::TimePointZero);
+      } catch (const tf2::TransformException & ex) {
+        RCLCPP_INFO(
+                   node_ptr_->get_logger(), "Could not transform %s to %s: %s",
+            "map", "marker_0_map", ex.what());
+      }
+    try {
+        robot_cart = tf_buffer_->lookupTransform(
+          "laser_frame", "marker_0_map",
+          tf2::TimePointZero);
+      } catch (const tf2::TransformException & ex) {
+        RCLCPP_INFO(
+                   node_ptr_->get_logger(), "Could not transform %s to %s: %s",
+            "map", "marker_0_map", ex.what());
+      }
+    if(map_cart.header.stamp.sec != 0 && robot_cart.header.stamp.sec != 0)
+    {
+      if(sqrt(robot_cart.transform.translation.x*robot_cart.transform.translation.x
+          +robot_cart.transform.translation.y*robot_cart.transform.translation.y
+          +robot_cart.transform.translation.z*robot_cart.transform.translation.z) < 4)
+          {
+              auto send_goal_options = rclcpp_action::Client<NavigateToPose>::SendGoalOptions();
+  send_goal_options.result_callback = std::bind(&GoToCart::nav_to_pose_callback, this, std::placeholders::_1);
+              auto goal_msg = NavigateToPose::Goal();
+              goal_msg.pose.header.frame_id = "map";
+              goal_msg.pose.pose.position.x = map_cart.transform.translation.x;
+              goal_msg.pose.pose.position.y = map_cart.transform.translation.y;
+
+              tf2::Quaternion q(map_cart.transform.rotation.x,map_cart.transform.rotation.y,
+              map_cart.transform.rotation.z,map_cart.transform.rotation.w);
+              q.normalize();
+              goal_msg.pose.pose.orientation = tf2::toMsg(q);
+
+              // send pose
+              action_client_ptr_->async_send_goal(goal_msg, send_goal_options);
+              RCLCPP_INFO(node_ptr_->get_logger(), "RESENT Goal to Nav2\n");
+              Regoal = true;
+              return BT::NodeStatus::RUNNING;
+          }
+    }
+  }
 
   if (done_flag_)
   {
     RCLCPP_INFO(node_ptr_->get_logger(), "[%s] Goal reached\n", this->name());
+    Regoal = false;
     return BT::NodeStatus::SUCCESS;
     //return BT::NodeStatus::FAILURE;
   }

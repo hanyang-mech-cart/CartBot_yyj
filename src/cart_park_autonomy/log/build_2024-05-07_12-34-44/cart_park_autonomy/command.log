@@ -1,0 +1,2 @@
+Invoking command in '/home/yyj/my_ws/src/cart_park_autonomy/build/cart_park_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yyj/my_ws/src/cart_park_autonomy -DCMAKE_INSTALL_PREFIX=/home/yyj/my_ws/src/cart_park_autonomy/install/cart_park_autonomy
+Invoked command in '/home/yyj/my_ws/src/cart_park_autonomy/build/cart_park_autonomy' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yyj/my_ws/src/cart_park_autonomy -DCMAKE_INSTALL_PREFIX=/home/yyj/my_ws/src/cart_park_autonomy/install/cart_park_autonomy

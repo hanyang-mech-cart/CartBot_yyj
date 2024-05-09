@@ -1,0 +1,37 @@
+[5.023s] Invoking command in '/home/yyj/my_ws/src/open_action_server': PYTHONPATH=/home/yyj/my_ws/build/open_action_server/prefix_override:/home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_action_server build --build-base /home/yyj/my_ws/build/open_action_server/build install --record /home/yyj/my_ws/build/open_action_server/install.log --single-version-externally-managed install_data
+[6.046s] running egg_info
+[6.048s] creating ../../build/open_action_server/open_action_server.egg-info
+[6.049s] writing ../../build/open_action_server/open_action_server.egg-info/PKG-INFO
+[6.050s] writing dependency_links to ../../build/open_action_server/open_action_server.egg-info/dependency_links.txt
+[6.051s] writing entry points to ../../build/open_action_server/open_action_server.egg-info/entry_points.txt
+[6.052s] writing requirements to ../../build/open_action_server/open_action_server.egg-info/requires.txt
+[6.052s] writing top-level names to ../../build/open_action_server/open_action_server.egg-info/top_level.txt
+[6.053s] writing manifest file '../../build/open_action_server/open_action_server.egg-info/SOURCES.txt'
+[6.062s] reading manifest file '../../build/open_action_server/open_action_server.egg-info/SOURCES.txt'
+[6.065s] writing manifest file '../../build/open_action_server/open_action_server.egg-info/SOURCES.txt'
+[6.065s] running build
+[6.066s] running build_py
+[6.066s] creating /home/yyj/my_ws/build/open_action_server/build
+[6.066s] creating /home/yyj/my_ws/build/open_action_server/build/lib
+[6.067s] creating /home/yyj/my_ws/build/open_action_server/build/lib/open_action_server
+[6.067s] copying open_action_server/__init__.py -> /home/yyj/my_ws/build/open_action_server/build/lib/open_action_server
+[6.067s] copying open_action_server/open_action_server.py -> /home/yyj/my_ws/build/open_action_server/build/lib/open_action_server
+[6.068s] running install
+[6.070s] running install_lib
+[6.072s] creating /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server
+[6.073s] copying /home/yyj/my_ws/build/open_action_server/build/lib/open_action_server/__init__.py -> /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server
+[6.073s] copying /home/yyj/my_ws/build/open_action_server/build/lib/open_action_server/open_action_server.py -> /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server
+[6.075s] byte-compiling /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server/__init__.py to __init__.cpython-310.pyc
+[6.076s] byte-compiling /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server/open_action_server.py to open_action_server.cpython-310.pyc
+[6.077s] running install_data
+[6.078s] creating /home/yyj/my_ws/install/open_action_server/share/ament_index
+[6.078s] creating /home/yyj/my_ws/install/open_action_server/share/ament_index/resource_index
+[6.078s] creating /home/yyj/my_ws/install/open_action_server/share/ament_index/resource_index/packages
+[6.078s] copying resource/open_action_server -> /home/yyj/my_ws/install/open_action_server/share/ament_index/resource_index/packages
+[6.079s] copying package.xml -> /home/yyj/my_ws/install/open_action_server/share/open_action_server
+[6.079s] running install_egg_info
+[6.085s] Copying ../../build/open_action_server/open_action_server.egg-info to /home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages/open_action_server-0.0.0-py3.10.egg-info
+[6.087s] running install_scripts
+[6.165s] Installing open_action_server script to /home/yyj/my_ws/install/open_action_server/lib/open_action_server
+[6.166s] writing list of installed files to '/home/yyj/my_ws/build/open_action_server/install.log'
+[6.291s] Invoked command in '/home/yyj/my_ws/src/open_action_server' returned '0': PYTHONPATH=/home/yyj/my_ws/build/open_action_server/prefix_override:/home/yyj/my_ws/install/open_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_action_server build --build-base /home/yyj/my_ws/build/open_action_server/build install --record /home/yyj/my_ws/build/open_action_server/install.log --single-version-externally-managed install_data

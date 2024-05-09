@@ -1,0 +1,45 @@
+[5.077s] Invoking command in '/home/yyj/my_ws/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/yyj/my_ws/build/ros2_aruco/prefix_override:/home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/yyj/my_ws/build/ros2_aruco/build install --record /home/yyj/my_ws/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[6.240s] running egg_info
+[6.241s] creating ../../../build/ros2_aruco/ros2_aruco.egg-info
+[6.241s] writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[6.241s] writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[6.241s] writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[6.242s] writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[6.242s] writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[6.242s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[6.242s] reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[6.242s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[6.243s] running build
+[6.243s] running build_py
+[6.243s] creating /home/yyj/my_ws/build/ros2_aruco/build
+[6.243s] creating /home/yyj/my_ws/build/ros2_aruco/build/lib
+[6.244s] creating /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco
+[6.244s] copying ros2_aruco/__init__.py -> /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco
+[6.244s] copying ros2_aruco/aruco_generate_marker.py -> /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco
+[6.244s] copying ros2_aruco/aruco_node.py -> /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco
+[6.245s] running install
+[6.245s] running install_lib
+[6.245s] creating /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[6.245s] copying /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[6.246s] copying /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[6.246s] copying /home/yyj/my_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[6.246s] byte-compiling /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc
+[6.255s] byte-compiling /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc
+[6.255s] byte-compiling /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc
+[6.256s] running install_data
+[6.256s] creating /home/yyj/my_ws/install/ros2_aruco/share/ament_index
+[6.257s] creating /home/yyj/my_ws/install/ros2_aruco/share/ament_index/resource_index
+[6.257s] creating /home/yyj/my_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[6.259s] copying resource/ros2_aruco -> /home/yyj/my_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[6.260s] copying package.xml -> /home/yyj/my_ws/install/ros2_aruco/share/ros2_aruco
+[6.260s] creating /home/yyj/my_ws/install/ros2_aruco/share/ros2_aruco/launch
+[6.260s] copying launch/aruco_recognition.launch.py -> /home/yyj/my_ws/install/ros2_aruco/share/ros2_aruco/launch
+[6.260s] creating /home/yyj/my_ws/install/ros2_aruco/share/ros2_aruco/config
+[6.260s] copying config/aruco_parameters.yaml -> /home/yyj/my_ws/install/ros2_aruco/share/ros2_aruco/config
+[6.261s] running install_egg_info
+[6.261s] Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[6.262s] running install_scripts
+[6.274s] Installing aruco_generate_marker script to /home/yyj/my_ws/install/ros2_aruco/lib/ros2_aruco
+[6.278s] Installing aruco_node script to /home/yyj/my_ws/install/ros2_aruco/lib/ros2_aruco
+[6.282s] writing list of installed files to '/home/yyj/my_ws/build/ros2_aruco/install.log'
+[6.368s] Invoked command in '/home/yyj/my_ws/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/yyj/my_ws/build/ros2_aruco/prefix_override:/home/yyj/my_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/yyj/my_ws/build/ros2_aruco/build install --record /home/yyj/my_ws/build/ros2_aruco/install.log --single-version-externally-managed install_data

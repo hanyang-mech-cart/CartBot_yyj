@@ -1,0 +1,22 @@
+[7.498s] Invoking command in '/home/yyj/my_ws/src/my_tf2_package': PYTHONPATH=/home/yyj/my_ws/build/my_tf2_package/prefix_override:/home/yyj/my_ws/install/my_tf2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tf2_package build --build-base /home/yyj/my_ws/build/my_tf2_package/build install --record /home/yyj/my_ws/build/my_tf2_package/install.log --single-version-externally-managed install_data
+[8.847s] running egg_info
+[8.848s] writing ../../build/my_tf2_package/my_tf2_package.egg-info/PKG-INFO
+[8.848s] writing dependency_links to ../../build/my_tf2_package/my_tf2_package.egg-info/dependency_links.txt
+[8.849s] writing entry points to ../../build/my_tf2_package/my_tf2_package.egg-info/entry_points.txt
+[8.849s] writing requirements to ../../build/my_tf2_package/my_tf2_package.egg-info/requires.txt
+[8.850s] writing top-level names to ../../build/my_tf2_package/my_tf2_package.egg-info/top_level.txt
+[8.854s] reading manifest file '../../build/my_tf2_package/my_tf2_package.egg-info/SOURCES.txt'
+[8.855s] adding license file 'LICENSE'
+[8.859s] writing manifest file '../../build/my_tf2_package/my_tf2_package.egg-info/SOURCES.txt'
+[8.859s] running build
+[8.860s] running build_py
+[8.861s] running install
+[8.861s] running install_lib
+[8.865s] running install_data
+[8.866s] running install_egg_info
+[8.877s] removing '/home/yyj/my_ws/install/my_tf2_package/lib/python3.10/site-packages/my_tf2_package-0.0.0-py3.10.egg-info' (and everything under it)
+[8.878s] Copying ../../build/my_tf2_package/my_tf2_package.egg-info to /home/yyj/my_ws/install/my_tf2_package/lib/python3.10/site-packages/my_tf2_package-0.0.0-py3.10.egg-info
+[8.878s] running install_scripts
+[8.988s] Installing my_static_cart_tf2_broadcaster script to /home/yyj/my_ws/install/my_tf2_package/lib/my_tf2_package
+[8.990s] writing list of installed files to '/home/yyj/my_ws/build/my_tf2_package/install.log'
+[9.141s] Invoked command in '/home/yyj/my_ws/src/my_tf2_package' returned '0': PYTHONPATH=/home/yyj/my_ws/build/my_tf2_package/prefix_override:/home/yyj/my_ws/install/my_tf2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_tf2_package build --build-base /home/yyj/my_ws/build/my_tf2_package/build install --record /home/yyj/my_ws/build/my_tf2_package/install.log --single-version-externally-managed install_data

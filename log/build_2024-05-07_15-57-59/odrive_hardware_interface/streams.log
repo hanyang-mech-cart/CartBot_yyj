@@ -1,0 +1,37 @@
+[0.064s] Invoking command in '/home/yyj/my_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/odrive_hardware_interface -- -j16 -l16
+[1.194s] [ 50%] Built target odrive_usb
+[1.194s] [100%] Built target odrive_hardware_interface
+[1.195s] Invoked command in '/home/yyj/my_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/odrive_hardware_interface -- -j16 -l16
+[1.458s] Invoking command in '/home/yyj/my_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/odrive_hardware_interface
+[1.475s] -- Install configuration: ""
+[1.475s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/odrive_hardware_interface.xml
+[1.475s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include
+[1.475s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include/odrive_hardware_interface
+[1.477s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_usb.hpp
+[1.477s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp
+[1.477s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/visibility_control.hpp
+[1.478s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_endpoints.hpp
+[1.478s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.sh
+[1.478s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.dsv
+[1.478s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/lib/libodrive_usb.so
+[1.478s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so
+[1.481s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/ament_index/resource_index/package_run_dependencies/odrive_hardware_interface
+[1.481s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/ament_index/resource_index/parent_prefix_path/odrive_hardware_interface
+[1.481s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.sh
+[1.481s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.dsv
+[1.481s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.sh
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.dsv
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.bash
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.sh
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.zsh
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.dsv
+[1.482s] -- Installing: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/ament_index/resource_index/packages/odrive_hardware_interface
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/odrive_hardware_interface
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig.cmake
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig-version.cmake
+[1.482s] -- Up-to-date: /home/yyj/my_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.xml
+[1.492s] Invoked command in '/home/yyj/my_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/odrive_hardware_interface

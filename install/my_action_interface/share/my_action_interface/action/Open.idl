@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_action_interface/action/Open.action
+// generated code does not contain a copyright notice
+
+
+module my_action_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal open=1: 열기, open=0: 닫기")
+    struct Open_Goal {
+      int32 open;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Open_Result {
+      sequence<int32> sequence;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Open_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};

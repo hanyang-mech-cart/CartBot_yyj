@@ -1,4 +1,4 @@
-#include "autonomy_node.h"
+#include "autonomy_node.hpp"
 
 using namespace std::chrono_literals;
 
@@ -49,6 +49,20 @@ void AutonomyNode::create_behavior_tree()
   };
   factory.registerBuilder<GoToCart>("GoToCart", builder_gotocart);
 
+  BT::NodeBuilder builder_dockcart =
+      [=](const std::string &name, const BT::NodeConfiguration &config)
+  {
+    return std::make_unique<DockCart>(name, config, shared_from_this());
+  };
+  factory.registerBuilder<DockCart>("DockCart", builder_dockcart);
+
+  BT::NodeBuilder builder_parkcart =
+      [=](const std::string &name, const BT::NodeConfiguration &config)
+  {
+    return std::make_unique<ParkCart>(name, config, shared_from_this());
+  };
+  factory.registerBuilder<DockCart>("ParkCart", builder_parkcart);
+  
   BT::NodeBuilder builder_opengripper =
       [=](const std::string &name, const BT::NodeConfiguration &config)
   {
@@ -56,10 +70,8 @@ void AutonomyNode::create_behavior_tree()
   };
   factory.registerBuilder<OpenGripper>("OpenGripper", builder_opengripper);
 
-  //
   RCLCPP_INFO(get_logger(), bt_xml_dir.c_str());
   tree_ = factory.createTreeFromFile(bt_xml_dir + "/tree.xml");
-
 }
 
 void AutonomyNode::update_behavior_tree()

@@ -1,0 +1,6 @@
+Invoking command in '/home/yyj/my_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yyj/my_ws/src/ros2_aruco/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/yyj/my_ws/install/ros2_aruco_interfaces
+Invoked command in '/home/yyj/my_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yyj/my_ws/src/ros2_aruco/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/yyj/my_ws/install/ros2_aruco_interfaces
+Invoking command in '/home/yyj/my_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/ros2_aruco_interfaces -- -j16 -l16
+Invoked command in '/home/yyj/my_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/ros2_aruco_interfaces -- -j16 -l16
+Invoking command in '/home/yyj/my_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/ros2_aruco_interfaces
+Invoked command in '/home/yyj/my_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/ros2_aruco_interfaces

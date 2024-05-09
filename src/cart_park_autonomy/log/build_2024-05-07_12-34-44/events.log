@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (cart_park_autonomy) JobQueued: {'identifier': 'cart_park_autonomy', 'dependencies': OrderedDict()}
+[0.000275] (cart_park_autonomy) JobStarted: {'identifier': 'cart_park_autonomy'}
+[0.011310] (cart_park_autonomy) JobProgress: {'identifier': 'cart_park_autonomy', 'progress': 'cmake'}
+[0.011581] (cart_park_autonomy) Command: {'cmd': ['/usr/bin/cmake', '/home/yyj/my_ws/src/cart_park_autonomy', '-DCMAKE_INSTALL_PREFIX=/home/yyj/my_ws/src/cart_park_autonomy/install/cart_park_autonomy'], 'cwd': '/home/yyj/my_ws/src/cart_park_autonomy/build/cart_park_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yyj'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yyj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1651'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ab7e76ab3f4409a6fa0522fa66399dfa'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yyj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yyj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mycom:@/tmp/.ICE-unix/1651,unix/mycom:/tmp/.ICE-unix/1651'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fcb780b5_fd5f_4377_b057_6c23855c5cb8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yyj/my_ws/src/cart_park_autonomy/build/cart_park_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ab7e76ab3f4409a6fa0522fa66399dfa'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099345] (-) TimerEvent: {}
+[0.181459] (cart_park_autonomy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199539] (-) TimerEvent: {}
+[0.299990] (-) TimerEvent: {}
+[0.312694] (cart_park_autonomy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.324913] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400199] (-) TimerEvent: {}
+[0.413787] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.422172] (cart_park_autonomy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.422720] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.423405] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.427822] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500501] (-) TimerEvent: {}
+[0.522980] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.532515] (cart_park_autonomy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.532736] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.533636] (cart_park_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.541414] (cart_park_autonomy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600822] (-) TimerEvent: {}
+[0.701213] (-) TimerEvent: {}
+[0.727086] (cart_park_autonomy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.801529] (-) TimerEvent: {}
+[0.863516] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.901789] (-) TimerEvent: {}
+[0.954115] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.964116] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.981041] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.002124] (-) TimerEvent: {}
+[1.007065] (cart_park_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.039873] (cart_park_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102414] (-) TimerEvent: {}
+[1.146749] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.152153] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202599] (-) TimerEvent: {}
+[1.293088] (cart_park_autonomy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.302789] (-) TimerEvent: {}
+[1.328195] (cart_park_autonomy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.387596] (cart_park_autonomy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.402976] (-) TimerEvent: {}
+[1.404096] (cart_park_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.495988] (cart_park_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.496327] (cart_park_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.503183] (-) TimerEvent: {}
+[1.582137] (cart_park_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.583630] (cart_park_autonomy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.603458] (-) TimerEvent: {}
+[1.703911] (-) TimerEvent: {}
+[1.804751] (-) TimerEvent: {}
+[1.828408] (cart_park_autonomy) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.905023] (-) TimerEvent: {}
+[1.988281] (cart_park_autonomy) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.13 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.005222] (-) TimerEvent: {}
+[2.105727] (-) TimerEvent: {}
+[2.206156] (-) TimerEvent: {}
+[2.306612] (-) TimerEvent: {}
+[2.392423] (cart_park_autonomy) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.406754] (-) TimerEvent: {}
+[2.417708] (cart_park_autonomy) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.445064] (cart_park_autonomy) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.447661] (cart_park_autonomy) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.447820] (cart_park_autonomy) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.507011] (-) TimerEvent: {}
+[2.607450] (-) TimerEvent: {}
+[2.707896] (-) TimerEvent: {}
+[2.790320] (cart_park_autonomy) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[2.790643] (cart_park_autonomy) StderrLine: {'line': b'  By not providing "Findmy_action_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.790765] (cart_park_autonomy) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.790824] (cart_park_autonomy) StderrLine: {'line': b'  "my_action_interface", but CMake did not find one.\n'}
+[2.790876] (cart_park_autonomy) StderrLine: {'line': b'\n'}
+[2.790927] (cart_park_autonomy) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.790977] (cart_park_autonomy) StderrLine: {'line': b'  "my_action_interface" with any of the following names:\n'}
+[2.791025] (cart_park_autonomy) StderrLine: {'line': b'\n'}
+[2.791070] (cart_park_autonomy) StderrLine: {'line': b'    my_action_interfaceConfig.cmake\n'}
+[2.791117] (cart_park_autonomy) StderrLine: {'line': b'    my_action_interface-config.cmake\n'}
+[2.791167] (cart_park_autonomy) StderrLine: {'line': b'\n'}
+[2.791213] (cart_park_autonomy) StderrLine: {'line': b'  Add the installation prefix of "my_action_interface" to CMAKE_PREFIX_PATH\n'}
+[2.791260] (cart_park_autonomy) StderrLine: {'line': b'  or set "my_action_interface_DIR" to a directory containing one of the above\n'}
+[2.791306] (cart_park_autonomy) StderrLine: {'line': b'  files.  If "my_action_interface" provides a separate development package or\n'}
+[2.791352] (cart_park_autonomy) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[2.791396] (cart_park_autonomy) StderrLine: {'line': b'\n'}
+[2.791440] (cart_park_autonomy) StderrLine: {'line': b'\x1b[0m\n'}
+[2.791486] (cart_park_autonomy) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.791543] (cart_park_autonomy) StdoutLine: {'line': b'See also "/home/yyj/my_ws/src/cart_park_autonomy/build/cart_park_autonomy/CMakeFiles/CMakeOutput.log".\n'}
+[2.800418] (cart_park_autonomy) CommandEnded: {'returncode': 1}
+[2.808200] (-) TimerEvent: {}
+[2.828934] (cart_park_autonomy) JobEnded: {'identifier': 'cart_park_autonomy', 'rc': 1}
+[2.840177] (-) EventReactorShutdown: {}

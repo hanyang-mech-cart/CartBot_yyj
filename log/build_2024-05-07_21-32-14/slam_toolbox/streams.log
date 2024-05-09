@@ -1,0 +1,418 @@
+[4.608s] Invoking command in '/home/yyj/my_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/slam_toolbox -- -j16 -l16
+[4.928s] [  1%] Built target slam_toolbox__cpp
+[5.274s] [  3%] Built target kartoSlamToolbox
+[5.510s] [ 11%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[5.809s] [ 20%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[5.986s] [ 28%] Built target slam_toolbox__rosidl_typesupport_cpp
+[6.161s] [ 28%] Built target ament_cmake_python_copy_slam_toolbox
+[6.415s] [ 33%] Built target toolbox_common
+[7.933s] running egg_info
+[7.937s] writing slam_toolbox.egg-info/PKG-INFO
+[7.937s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[7.938s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[7.952s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[7.956s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[8.089s] [ 33%] Built target ament_cmake_python_build_slam_toolbox_egg
+[8.248s] [ 35%] Built target merge_maps_kinematic
+[8.465s] [ 36%] Built target lifelong_slam_toolbox
+[8.662s] [ 37%] Built target localization_slam_toolbox
+[8.867s] [ 39%] Built target lifelong_slam_toolbox_node
+[9.056s] [ 40%] Built target map_and_localization_slam_toolbox
+[9.234s] [ 42%] Built target localization_slam_toolbox_node
+[9.379s] [ 43%] Built target map_and_localization_slam_toolbox_node
+[9.504s] [ 45%] Built target sync_slam_toolbox
+[9.631s] [ 47%] Built target async_slam_toolbox
+[9.744s] [ 48%] Built target sync_slam_toolbox_node
+[9.881s] [ 49%] Built target async_slam_toolbox_node
+[9.982s] [ 51%] Built target ceres_solver_plugin
+[10.082s] [ 53%] Built target SlamToolboxPlugin
+[10.160s] [ 62%] Built target slam_toolbox__rosidl_generator_c
+[10.243s] [ 71%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[10.312s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c
+[10.387s] [ 87%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[10.451s] [ 87%] Built target slam_toolbox
+[10.523s] [ 87%] Built target slam_toolbox__py
+[10.597s] [ 95%] Built target slam_toolbox__rosidl_generator_py
+[10.669s] [ 96%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[10.748s] [ 98%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[10.823s] [100%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[10.857s] Invoked command in '/home/yyj/my_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/slam_toolbox -- -j16 -l16
+[11.826s] Invoking command in '/home/yyj/my_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/slam_toolbox
+[11.861s] -- Install configuration: "Release"
+[11.861s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[11.862s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.863s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.864s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[11.864s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[11.864s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.c
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[11.865s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[11.866s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[11.866s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[11.866s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[11.866s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.c
+[11.866s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[11.867s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[11.867s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.c
+[11.867s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[11.867s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.c
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.c
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.c
+[11.868s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.c
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.c
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[11.869s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[11.870s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[11.870s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[11.870s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[11.871s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[11.872s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.c
+[11.873s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[11.873s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[11.873s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[11.874s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[11.874s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[11.875s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[11.876s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[11.876s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[11.876s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[11.883s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[11.883s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[11.883s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[11.883s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[11.883s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[11.884s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[11.886s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[11.887s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[11.888s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[11.889s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[11.890s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[11.890s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[11.890s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[11.891s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[11.891s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[11.891s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[11.891s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[11.892s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.893s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.893s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.893s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/dds_fastrtps
+[11.894s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[11.895s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[11.896s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.897s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.897s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.897s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.c
+[11.897s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[11.897s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.c
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[11.898s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.c
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.c
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.c
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[11.899s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.c
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.c
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.c
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.900s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[11.901s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.cpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[11.902s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.cpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.cpp
+[11.903s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.cpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.cpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.cpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.cpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[11.904s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[11.905s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[11.905s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[11.905s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[11.905s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info
+[11.905s] -- Installing: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/SOURCES.txt
+[11.905s] -- Installing: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/top_level.txt
+[11.905s] -- Installing: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/dependency_links.txt
+[11.906s] -- Installing: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/PKG-INFO
+[11.906s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox
+[11.906s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[11.906s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.906s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.907s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[11.907s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[11.907s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.907s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[11.907s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv
+[11.908s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[11.908s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[11.908s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[11.908s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[11.909s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[11.909s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[11.909s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[11.909s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[11.909s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[11.910s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[11.910s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[11.910s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[11.910s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[11.910s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[11.911s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[11.911s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[11.911s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[11.911s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[11.911s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[11.912s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[11.912s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[11.912s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.986s] Listing '/home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[11.986s] Listing '/home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[11.996s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.997s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.998s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.999s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[11.999s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[12.000s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[12.000s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[12.000s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[12.001s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[12.001s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[12.002s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[12.002s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[12.003s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[12.003s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[12.003s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[12.004s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[12.004s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[12.004s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[12.005s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[12.005s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[12.006s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[12.006s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[12.006s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[12.006s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[12.007s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[12.007s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[12.007s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[12.009s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[12.010s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[12.010s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[12.010s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[12.010s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml
+[12.011s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml
+[12.012s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[12.012s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[12.012s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[12.012s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[12.013s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[12.013s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libtoolbox_common.so
+[12.014s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libceres_solver_plugin.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[12.015s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[12.016s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include
+[12.016s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox
+[12.016s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/experimental
+[12.016s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[12.016s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[12.017s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[12.018s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[12.019s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[12.020s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[12.020s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch
+[12.020s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[12.021s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[12.021s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[12.021s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[12.021s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[12.022s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/solver_plugins.xml
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/rviz_plugins.xml
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[12.023s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[12.024s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[12.024s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[12.024s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[12.024s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[12.024s] -- Installing: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/package.dsv
+[12.025s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[12.025s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[12.025s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[12.028s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[12.029s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[12.030s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[12.030s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[12.030s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[12.031s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[12.032s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[12.032s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[12.032s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[12.032s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[12.032s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[12.033s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[12.033s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[12.034s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[12.034s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.034s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.034s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[12.035s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[12.035s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.035s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.036s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[12.036s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[12.036s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/share/slam_toolbox/package.xml
+[12.038s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include/
+[12.039s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk
+[12.040s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[12.040s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/Karto.h
+[12.040s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/Types.h
+[12.040s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/Math.h
+[12.040s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/Macros.h
+[12.041s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/Mapper.h
+[12.041s] -- Up-to-date: /home/yyj/my_ws/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[12.041s] Invoked command in '/home/yyj/my_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/slam_toolbox

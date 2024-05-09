@@ -1,0 +1,29 @@
+[1.124s] Invoking command in '/home/yyj/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_bot_description -- -j16 -l16
+[3.543s] Invoked command in '/home/yyj/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_bot_description -- -j16 -l16
+[3.955s] Invoking command in '/home/yyj/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_bot_description
+[4.087s] -- Install configuration: ""
+[4.090s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf
+[4.090s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode
+[4.090s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/settings.json
+[4.090s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/c_cpp_properties.json
+[4.091s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot_description.urdf.xacro
+[4.091s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot.materials.xacro
+[4.091s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz
+[4.091s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot_view.rviz
+[4.091s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot.rviz
+[4.092s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[4.092s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[4.092s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[4.092s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[4.092s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[4.093s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[4.093s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[4.093s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[4.093s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[4.094s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[4.094s] -- Installing: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[4.094s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[4.094s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[4.095s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[4.095s] -- Up-to-date: /home/yyj/my_ws/install/my_bot_description/share/my_bot_description/package.xml
+[4.109s] Invoked command in '/home/yyj/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_bot_description

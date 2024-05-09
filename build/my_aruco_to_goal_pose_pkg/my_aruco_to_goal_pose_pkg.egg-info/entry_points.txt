@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_sub_goal_pose_pub = my_aruco_to_goal_pose_pkg.aruco_sub_goal_pose_pub:main
+

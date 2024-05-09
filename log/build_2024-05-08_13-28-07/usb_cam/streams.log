@@ -1,0 +1,63 @@
+[2.912s] Invoking command in '/home/yyj/my_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/usb_cam -- -j16 -l16
+[3.274s] [ 14%] Built target usb_cam_node_exe
+[3.294s] [ 28%] Built target usb_cam
+[3.352s] [ 57%] Built target gtest_main
+[3.354s] [ 57%] Built target gtest
+[3.670s] [ 71%] Built target usb_cam_node
+[3.679s] [ 85%] Built target test_usb_cam_utils
+[3.688s] [100%] Built target test_pixel_formats
+[3.788s] Invoked command in '/home/yyj/my_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/usb_cam -- -j16 -l16
+[4.275s] Invoking command in '/home/yyj/my_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/usb_cam
+[4.350s] -- Install configuration: ""
+[4.350s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[4.350s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[4.351s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[4.352s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/lib/usb_cam/show_image.py
+[4.353s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/lib/libusb_cam.so
+[4.353s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/lib/libusb_cam_node.so
+[4.354s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include
+[4.355s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam
+[4.356s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[4.357s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats
+[4.357s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[4.358s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[4.358s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[4.358s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[4.359s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[4.359s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[4.359s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[4.359s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[4.360s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[4.360s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[4.360s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[4.362s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/constants.hpp
+[4.363s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/include/usb_cam/utils.hpp
+[4.364s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/lib/libusb_cam_node.so
+[4.364s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/launch
+[4.364s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[4.364s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[4.365s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[4.366s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/config
+[4.366s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[4.366s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[4.367s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[4.367s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[4.367s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[4.368s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[4.368s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[4.368s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[4.368s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[4.369s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[4.369s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[4.369s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[4.370s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[4.370s] -- Installing: /home/yyj/my_ws/install/usb_cam/share/usb_cam/package.dsv
+[4.370s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[4.370s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[4.371s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[4.371s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.371s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.372s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[4.372s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[4.372s] -- Up-to-date: /home/yyj/my_ws/install/usb_cam/share/usb_cam/package.xml
+[4.395s] Invoked command in '/home/yyj/my_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yyj/my_ws/install/ros2_aruco:/home/yyj/my_ws/install/open_action_server:/home/yyj/my_ws/install/my_tf2_package:/home/yyj/my_ws/install/my_docking:/home/yyj/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/usb_cam
