@@ -47,6 +47,9 @@ BT::NodeStatus DockCart::onStart()
   subscription_ = node_ptr_->create_subscription<geometry_msgs::msg::PoseArray>(
   "/aruco_poses",10, std::bind(&DockCart::pose_callback, this, std::placeholders::_1)
    );
+
+  timer_ = node_ptr_->create_wall_timer(std::chrono::seconds(1), std::bind(&DockCart::timer_callback, this));
+
   return BT::NodeStatus::RUNNING;
 }
 
@@ -65,10 +68,25 @@ BT::NodeStatus DockCart::onRunning()
   }
 }
 
+void DockCart::timer_callback()
+{
+    rclcpp::Time current_time = node_ptr_->now();
+    if(current_time.second() - receice_time.second() >= 3) {
+        geometry_msgs::msg::Twist cmd_vel_msg;
+        cmd_vel_msg.linear.x = 0.0;
+        cmd_vel_msg.linear.y = 0.0;
+        cmd_vel_msg.linear.z = 0.0;
+        cmd_vel_msg.angular.x = 0.0;
+        cmd_vel_msg.angular.y = 0.0;
+        cmd_vel_msg.angular.z = -(prev_cmd_angular_z[-1]/abs(prev_cmd_angular_z[-1])) * 0.2;
 
+    }
+}
 
 void DockCart::pose_callback(const geometry_msgs::msg::PoseArray::SharedPtr msg)
 {
+    receive_time = node_ptr_->now();
+
     if (DODOCK == 1)
     {
         if (msg->poses.size() > 0) {
@@ -133,7 +151,7 @@ void DockCart::pose_callback(const geometry_msgs::msg::PoseArray::SharedPtr msg)
                         std::this_thread::sleep_for(std::chrono::milliseconds(2000));
                         cmd_vel_msg.linear.x = -0.4;
                         cmd_vel_msg.angular.z = 0.0;
-                        while (cnt_time < 300000) {
+                        while (cnt_time < 100000) {
                             cnt_time++;
                             publisher_->publish(cmd_vel_msg);
                         }

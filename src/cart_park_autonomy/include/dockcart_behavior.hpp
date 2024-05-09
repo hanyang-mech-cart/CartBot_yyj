@@ -5,7 +5,6 @@
 #include <cmath>
 #include <deque>
 #include <vector>
-
 using namespace std::chrono_literals;
 
 
@@ -27,12 +26,15 @@ private:
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
   void pose_callback(const geometry_msgs::msg::PoseArray::SharedPtr msg);
 
+  // Timer
+  rclcpp::Time receive_time;
+
   // PID param
   double prev_error;
   double integral;
   double kp = 5;
   double ki = 0.6;
-  double kd = 100;
+  double kd = 120;
 
   // Max, Min cmd
   double max_angular_z = 3.0;
