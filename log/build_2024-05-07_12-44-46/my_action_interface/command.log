@@ -1,4 +1,0 @@
-Invoking command in '/home/yyj/my_ws/build/my_action_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_action_interface -- -j16 -l16
-Invoked command in '/home/yyj/my_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yyj/my_ws/build/my_action_interface -- -j16 -l16
-Invoking command in '/home/yyj/my_ws/build/my_action_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_action_interface
-Invoked command in '/home/yyj/my_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yyj/my_ws/build/my_action_interface
