@@ -5,7 +5,6 @@
 #include <cmath>
 #include <deque>
 #include <vector>
-
 using namespace std::chrono_literals;
 
 
@@ -29,13 +28,19 @@ private:
   void pose_callback(const geometry_msgs::msg::PoseArray::SharedPtr msg);
   void timer_callback();
 
+<<<<<<< HEAD
   rclcpp::Time receive_time;
+=======
+  // Timer
+  rclcpp::Time receive_time;
+
+>>>>>>> 5d60b5db238f532e66a1f970ff195fc47d85ef36
   // PID param
   double prev_error;
   double integral;
   double kp = 5;
   double ki = 0.6;
-  double kd = 100;
+  double kd = 120;
 
   // Max, Min cmd
   double max_angular_z = 3.0;
