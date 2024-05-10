@@ -25,8 +25,11 @@ public:
 private:
   rclcpp::Subscription<geometry_msgs::msg::PoseArray>::SharedPtr subscription_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+  rclcpp::TimerBase::SharedPtr timer_;
   void pose_callback(const geometry_msgs::msg::PoseArray::SharedPtr msg);
+  void timer_callback();
 
+  rclcpp::Time receive_time;
   // PID param
   double prev_error;
   double integral;

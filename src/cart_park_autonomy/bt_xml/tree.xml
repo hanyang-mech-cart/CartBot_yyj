@@ -8,7 +8,8 @@
       </Retry>
       <GoToCart name="GotoCart" cart_loc_in="{cart_loc}"/>
       <DockCart name="DockCart" />
-      <ParkCart name="ParkCart" /> 
+      <ParkCart name="ParkCart" />
+      <OpenGripper name="OpenGripper">
     </Sequence>
   </BehaviorTree>
 </root>
